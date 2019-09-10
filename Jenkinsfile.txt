@@ -1,0 +1,9 @@
+node {
+
+   stage('SCM') {
+	  git 'https://github.com/swathiraos/jenkins-practice.git'
+   }
+   
+   stage ('build the packages') {
+	  sh 'mvn package'
+   }
