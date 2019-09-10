@@ -1,8 +1,0 @@
-node {
-
-   stage('SCM') {
-	  git 'https://github.com/swathiraos/jenkins-practice.git'
-   }
-   
- 
-   }
